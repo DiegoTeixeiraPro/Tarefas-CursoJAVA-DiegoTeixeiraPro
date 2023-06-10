@@ -32,5 +32,7 @@ public class Program {
         }
         double media = soma / vect.length;
         System.out.printf("Preço médio dos produtos = %.2f%n", media);
+
+        scanner.close();
     }
 }
