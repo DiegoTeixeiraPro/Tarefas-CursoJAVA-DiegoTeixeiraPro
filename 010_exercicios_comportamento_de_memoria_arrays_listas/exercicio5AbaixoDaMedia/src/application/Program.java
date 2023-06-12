@@ -24,6 +24,7 @@ public class Program {
         double media = soma / vetor.length;
         System.out.println("Média do Vetor: " + media);
 
+
         System.out.println("Elementos Abaixo da Média:");
         for (int i = 0; i < vetor.length; i++) {
             if (vetor[i] < media) {
