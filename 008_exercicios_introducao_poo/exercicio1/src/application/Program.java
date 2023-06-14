@@ -5,6 +5,7 @@ Fazer um programa para ler os valores da largura e altura de um retângulo. Em s
 sua área, perímetro e diagonal. Usar uma classe como mostrado no projeto ao lado.
  */
 
+
 import entities.Rectangle;
 import java.util.Scanner;
 
