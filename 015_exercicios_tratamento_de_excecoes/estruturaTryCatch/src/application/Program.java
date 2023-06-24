@@ -10,11 +10,11 @@ public class Program {
         try {
             System.out.print("Digite os nomes apenas separando por espaço: ");
             String[] vect = scanner.nextLine().split(" ");
-            System.out.print("Qual possição deseja acessar? ");
+            System.out.print("Qual posição deseja acessar? ");
             int position = scanner.nextInt();
             System.out.println(vect[position]);
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Possição inválida!");
+            System.out.println("Posição inválida!");
         } catch (InputMismatchException e) {
             System.out.println("Erro de entrada!");
         }
